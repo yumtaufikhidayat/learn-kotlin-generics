@@ -4,7 +4,7 @@ fun main() {
     val data1: MyData<String> = MyData<String>("Taufik")
     data1.printData()
 
-    val data2: MyData<String> = MyData("Taufik")
+    val data2: MyData<String> = MyData("Taufik Hidayat")
     data2.printData()
 
     val data3 = MyData("Taufik")
