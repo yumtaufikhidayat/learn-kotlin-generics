@@ -11,5 +11,5 @@ fun contraVariant() {
 }
 
 class Contravariant<in T> {
-    fun sayHello(name: T) = println("Hello $name")
+    fun sayHello(name: T) = println("Hello, $name")
 }
