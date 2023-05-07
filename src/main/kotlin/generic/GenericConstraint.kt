@@ -3,6 +3,7 @@ package main.kotlin.generic
 fun main() {
     // val data1 = Company(Manager()) // error mismatch. Found Manager required CanSayHello
     val data2 = Company(VicePresident())
+    data2.employee.sayHello("Wafiq")
     //val data3 = Company("String") // error mismatch. Found String required CanSayHello and Employee
 }
 
