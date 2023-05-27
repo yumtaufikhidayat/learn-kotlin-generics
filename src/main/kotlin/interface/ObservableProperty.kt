@@ -9,7 +9,7 @@ fun main() {
 
 fun observableProperty() {
     val car = Car("Audi")
-    car.brand = "Volkswagen"
+    car.brand = "Volkswagen (VW)"
     println(car.brand)
 }
 
