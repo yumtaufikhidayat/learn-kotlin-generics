@@ -11,7 +11,8 @@ fun genericExtensionFunction() {
     data1.data
     data2.print()
     data3.printResult("sum", 1, 2)
-    data3.printResult("divided", 1, 2)
+    data3.printResult("difference", 3, 2)
+    data3.printResult("divided", 2, 2)
     data3.printResult("times", 1, 2)
 }
 
@@ -24,6 +25,7 @@ fun Data<Int>.printResult(type: String, valueA: Int, valueB: Int): Int {
     var printData = this.data
     when (type) {
         "sum" -> printData = valueA + valueB
+        "difference" -> printData = valueA - valueB
         "divided" -> printData = valueA / valueB
         "times" -> printData = valueA * valueB
     }
